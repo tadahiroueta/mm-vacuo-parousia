@@ -1,0 +1,103 @@
+[
+    {
+        "id": "sistemas-pvd",
+        "name": "Sistemas PVD",
+        "productIds": [
+            "sputtering",
+            "ebeam",
+            "termico",
+            "ion-milling",
+            "multitecnicas",
+            "mbe",
+            "fontes-&-catodos",
+            "suportes-de-amostra"
+        ]
+    },
+    {
+        "id": "sistemas-cvd",
+        "name": "Sistemas CVD",
+        "productIds": [
+            "ald",
+            "cvd-&-pecvd"
+        ]
+    },
+    {
+        "id": "more-filmes-finos",
+        "name": "Outros",
+        "productIds": [
+            "spin-coater",
+            "plasma-etching"
+        ]
+    },
+    {
+        "id": "ciencia-de-superficie",
+        "name": "Ciencia de Superficie",
+        "productIds": [
+            "xps-auger-iss-ups",
+            "sims",
+            "stm-afm-uhv"
+        ]
+    },
+    {
+        "id": "espectrometria-de-massa-quadrupolo",
+        "name": "Espectrometria de Massa Quadrupolo",
+        "productIds": [
+            "rga",
+            "analise-de-gas",
+            "analise-de-catalisadores",
+            "uhv-tpd-&-tds"
+        ]
+    },
+    {
+        "id": "bombas",
+        "name": "Bombas",
+        "productIds": [
+            "ionicas",
+            "criogenicas"
+        ]
+    },
+    {
+        "id": "componentes",
+        "name": "Componentes",
+        "productIds": [
+            "transferencia-de-amostra",
+            "manipuladores-y-xy-xyz-xyzt",
+            "flanges-e-conexoes",
+            "visores-uhv",
+            "cameras-de-uhv"
+        ]
+    },
+    {
+        "id": "passadores",
+        "name": "Passadores",
+        "productIds": [
+            "rotativos",
+            "lineares"
+        ]
+    },
+    {
+        "id": "oleos-e-fluidos",
+        "name": "Oleos e fluidos",
+        "productIds": [
+            "oleo-de-silicone-para-bomba-difusora",
+            "oleo-para-bombas-de-alto-vacuo"
+        ]
+    },
+    {
+        "id": "carga-de-gas-refrigerante",
+        "name": "Carga de Gas Refrigerante",
+        "productIds": [
+            "polycold",
+            "telemark"
+        ]
+    },
+    {
+        "id": "more-insumos-&-consumiveis",
+        "name": "Mais Insumos & Consumíveis",
+        "productIds": [
+            "targets",
+            "material-de-alta-pureza",
+            "substratos"
+        ]
+    }
+]

@@ -1,0 +1,63 @@
+[
+    {
+        "id": "hiden-analytical",
+        "name": "Hiden Analytical",
+        "description": "A Hiden Analytical é uma empresa especializada no design, desenvolvimento e fabricação de ferramentas de análise de gás, incluindo instrumentos de espectroscopia de massa. ",
+        "productIds": [
+            "sims",
+            "rga",
+            "analise-de-gas",
+            "analise-de-catalisadores",
+            "uhv-tpd-&-tds"
+        ]
+    },
+    {
+        "id": "aja-international-inc",
+        "name": "AJA International, Inc",
+        "description": "A AJA INTERNATIONAL INC é uma empresa que trabalha com sistemas de pulverização AJA, sistemas de evaporação de feixe eletrônico, sistemas de moagem de íons, sistemas de evaporação térmica, alvos de pulverização, fabricante de fontes de magnetron...",
+        "productIds": [
+            "sputtering",
+            "ebeam",
+            "termico",
+            "ion-milling",
+            "multitecnicas",
+            "fontes-&-catodos",
+            "suportes-de-amostra"
+        ]
+    },
+    {
+        "id": "thermofisher-scientific",
+        "name": "Thermo Fisher Scientific",
+        "description": "A Empresa Thermo Fisher Scientific é uma fornecedora americana de instrumentação científica, reagentes e consumíveis e software e serviços para serviços de saúde, ciências da vida e outros laboratórios na academia, governo e indústria.",
+        "productIds": []
+    },
+    {
+        "id": "rhk-technology",
+        "name": "RHK Technology",
+        "description": "A Empresa RHK Technology é fabricante de acessórios para microscópios de varredura “Pan Scan” para pesquisa. Soluções quantitativas de SPM e STM para ambiente UHV, líquido e controlado.",
+        "productIds": [
+            "stm-afm-uhv"
+        ]
+    },
+    {
+        "id": "nanotech-consulting",
+        "name": "NanoTech Consulting",
+        "description": "A Empresa NanoTech Consulting Fornece soluções de vácuo total. Como Hardware, Componentes e Sistemas - Materiais compatíveis com UHVA.",
+        "productIds": [
+            "flanges-e-conexoes",
+            "visores-uhv"
+        ]
+    },
+    {
+        "id": "uhv-design-ltd",
+        "name": "UHV Design Ltd",
+        "description": "We specialise in the design, manufacture and supply of innovative market-leading HV and UHV motion and heating products.",
+        "productIds": [
+            "transferencia-de-amostra",
+            "manipuladores-y-xy-xyz-xyzt",
+            "suportes-de-amostra",
+            "rotativos",
+            "lineares"
+        ]
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "id": "filmes-finos",
+        "name": "Filmes Finos",
+        "description": "",
+        "subCategoryIds": [
+            "sistemas-pvd",
+            "sistemas-cvd",
+            "more-filmes-finos"
+        ]
+    },
+    {
+        "id": "analises-de-superfice-e-gases",
+        "name": "Análises de Superfície e Gases",
+        "description": "",
+        "subCategoryIds": [
+            "ciencia-de-superficie",
+            "espectrometria-de-massa-quadrupolo"
+        ]
+    },
+    {
+        "id": "uhv-consumiveis",
+        "name": "U.H.V. Consumíveis",
+        "description": "",
+        "subCategoryIds": [
+            "bombas",
+            "componentes",
+            "passadores",
+            "oleos-e-fluidos",
+            "carga-de-gas-refrigerante",
+            "more-insumos-&-consumiveis"
+        ]
+    }
+]

@@ -1,0 +1,253 @@
+[
+    {
+        "id": "sputtering",
+        "name": "Sputtering",
+        "subCategoryId": "sistemas-pvd",
+        "supplierId": "aja-international-inc",
+        "link": "https://www.ajaint.com/sputtering-systems.html"
+    },
+    {
+        "id": "ebeam",
+        "name": "Ebeam",
+        "supplierId": "aja-international-inc",
+        "link": "http://www.ajaint.com/evaporation-systems.html"
+    },
+    {
+        "id": "termico",
+        "name": "Termico",
+        "subCategoryId": "sistemas-pvd",
+        "supplierId": "aja-international-inc",
+        "link": "http://www.ajaint.com/evaporation-systems.html"
+    },
+    {
+        "id": "ion-milling",
+        "name": "Ion Milling",
+        "subCategoryId": "sistemas-pvd",
+        "supplierId": "aja-international-inc",
+        "link": "http://www.ajaint.com/what-is-ion-milling.html"
+    },
+    {
+        "id": "multitecnicas",
+        "name": "Multitecnicas",
+        "subCategoryId": "sistemas-pvd",
+        "supplierId": "aja-international-inc",
+        "link": "http://www.ajaint.com/multi-technique-systems.html"
+    },
+    {
+        "id": "mbe",
+        "name": "MBE",
+        "subCategoryId": "sistemas-pvd",
+        "supplierId": "",
+        "link": ""
+    },
+    {
+        "id": "fontes-&-catodos",
+        "name": "Fontes & Amostra",
+        "subCategoryId": "sistemas-pvd",
+        "supplierId": "aja-international-inc",
+        "link": "http://www.ajaint.com/sputtering-sources.html"
+    },
+    {
+        "id": "suportes-de-amostra",
+        "name": "Suportes de Amostra",
+        "subCategoryId": "sistemas-pvd",
+        "supplierId": "aja-international-inc",
+        "link": "http://www.ajaint.com/substrate-holders.html"
+    },
+    {
+        "id": "ald",
+        "name": "ALD",
+        "subCategoryId": "sistemas-cvd",
+        "supplierId": "",
+        "link": "https://beneq.com/en/products/research-equipment/"
+    },
+    {
+        "id": "cvd-&-pecvd",
+        "name": "CVD & PECVD",
+        "subCategoryId": "sistemas-cvd",
+        "supplierId": "",
+        "link": ""
+    },
+    {
+        "id": "targets",
+        "name": "Targets",
+        "subCategoryId": "insumos-e-consumiveis",
+        "supplierId": "",
+        "link": ""
+    },
+    {
+        "id": "material-de-alta-pureza",
+        "name": "Material de Alta Pureza",
+        "subCategoryId": "insumos-e-consumiveis",
+        "supplierId": "",
+        "link": ""
+    },
+    {
+        "id": "substratos",
+        "name": "Substratos",
+        "subCategoryId": "insumos-e-consumiveis",
+        "supplierId": "",
+        "link": ""
+    },
+    {
+        "id": "spin-coater",
+        "name": "Spin Coater",
+        "subCategoryId": "more-filmes-finos",
+        "supplierId": "",
+        "link": ""
+    },
+    {
+        "id": "plasma-etching",
+        "name": "Plasma Etching",
+        "subCategoryId": "more-filmes-finos",
+        "supplierId": "",
+        "link": ""
+    },
+    {
+        "id": "xps-auger-iss-ups",
+        "name": "XPS, AUGER, ISS, UPS",
+        "subCategoryId": "ciencia-de-superficie",
+        "supplierId": "",
+        "link": ""
+    },
+    {
+        "id": "sims",
+        "name": "SIMS",
+        "subCategoryId": "ciencia-de-superficie",
+        "supplierId": "hiden-analytical",
+        "link": "https://www.hidenanalytical.com/products/for-surface-analysis/"
+    },
+    {
+        "id": "stm-afm-uhv",
+        "name": "STM — AFM UHV",
+        "subCategoryId": "ciencia-de-superficie",
+        "supplierId": "rhk-technology",
+        "link": "https://www.rhk-tech.com/"
+    },
+    {
+        "id": "rga",
+        "name": "RGA",
+        "subCategoryId": "espectrometria-de-massa-quadrupolo",
+        "supplierId": "hiden-analytical",
+        "link": ""
+    },
+    {
+        "id": "analise-de-gas",
+        "name": "Análise de Gas",
+        "subCategoryId": "espectrometria-de-massa-quadrupolo",
+        "supplierId": "hiden-analytical",
+        "link": "https://www.hidenanalytical.com/products/for-gas-analysis/"
+    },
+    {
+        "id": "analise-de-catalisadores",
+        "name": "Análise de Catalisadores",
+        "subCategoryId": "espectrometria-de-massa-quadrupolo",
+        "supplierId": "hiden-analytical",
+        "link": "https://www.hidenanalytical.com/products/for-catalysis-and-thermal-analysis/"
+    },
+    {
+        "id": "uhv-tpd-&-tds",
+        "name": "UHV TPD & TDS",
+        "subCategoryId": "espectrometria-de-massa-quadrupolo",
+        "supplierId": "hiden-analytical",
+        "link": "https://www.hidenanalytical.com/products/for-catalysis-and-thermal-analysis/tpd-workstation/"
+    },
+    {
+        "id": "ionicas",
+        "name": "Ionicas",
+        "subCategoryId": "bombas",
+        "supplierId": "",
+        "link": "https://www.duniway.com/catalog/ion-pumps"
+    },
+    {
+        "id": "criogenicas",
+        "name": "Criogenicas",
+        "subCategoryId": "bombas",
+        "supplierId": "",
+        "link": "https://trilliumcryo.se/"
+    },
+    {
+        "id": "transferencia-de-amostra",
+        "name": "Transferência de Amostra",
+        "subCategoryId": "componentes",
+        "supplierId": "uhv-design-ltd",
+        "link": "https://www.uhvdesign.com/products/sample-transfer-arms"
+    },
+    {
+        "id": "manipuladores-y-xy-xyz-xyzt",
+        "name": "Manipuladores Y; XY; XYZ e XYZT",
+        "subCategoryId": "componentes",
+        "supplierId": "uhv-design-ltd",
+        "link": "https://www.uhvdesign.com/products/y,-xy,-xyz-and-xyzt-motion"
+    },
+    {
+        "id": "suportes-de-amostra",
+        "name": "Suportes de Amostra",
+        "subCategoryId": "componentes",
+        "supplierId": "uhv-design-ltd",
+        "link": "https://www.uhvdesign.com/products/analytical-stages"
+    },
+    {
+        "id": "flanges-e-conexoes",
+        "name": "Flanges e Conexões",
+        "subCategoryId": "componentes",
+        "supplierId": "nanotech-consulting",
+        "link": "http://www.nanotech-consulting.com/vacuum-hardware.html"
+    },
+    {
+        "id": "visores-uhv",
+        "name": "Visores UHV",
+        "subCategoryId": "componentes",
+        "supplierId": "nanotech-consulting",
+        "link": "http://www.nanotech-consulting.com/viewports.html"
+    },
+    {
+        "id": "cameras-de-uhv",
+        "name": "Cameras de UHV",
+        "subCategoryId": "components",
+        "supplierId": "",
+        "link": ""
+    },
+    {
+        "id": "rotativos",
+        "name": "Rotativos",
+        "subCategoryId": "passadores",
+        "supplierId": "uhv-design-ltd",
+        "link": "https://www.uhvdesign.com/products/rotary-feedthroughs"
+    },
+    {
+        "id": "lineares",
+        "name": "Lineares",
+        "subCategoryId": "passadores",
+        "supplierId": "uhv-design-ltd",
+        "link": "https://www.uhvdesign.com/products/linear-actuators"
+    },
+    {
+        "id": "oleo-de-silicone-para-bomba-difusora",
+        "name": "Óleo de Silicone para Bomba Difusora",
+        "subCategoryId": "oleos-e-fluidos",
+        "supplierId": "",
+        "link": ""
+    },
+    {
+        "id": "oleo-para-bombas-de-alto-vacuo",
+        "name": "Óleo para Bombas de Alto Vacuo",
+        "subCategoryId": "oleos-de-fluidos",
+        "supplierId": "",
+        "link": ""
+    },
+    {
+        "id": "polycold",
+        "name": "Polycold",
+        "subCategoryId": "carga-de-gas-refrigerante",
+        "supplierId": "",
+        "link": ""
+    },
+    {
+        "id": "telemark",
+        "name": "Telemark",
+        "subCategoryId": "carga-de-gas-refrigerante",
+        "supplierId": "",
+        "link": ""
+    }
+]

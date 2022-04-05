@@ -1,0 +1,15 @@
+{
+  "short_name": "MM Vácuo",
+  "name": "MM Vácuo",
+  "icons": [
+    {
+      "src": "./images/mm-vacuo-logo.jpg",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#D9261E",
+  "background_color": "#a7d3e3"
+}

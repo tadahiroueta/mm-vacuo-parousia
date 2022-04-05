@@ -1,0 +1,1110 @@
+/* 
+Color palette 
+#D9261E - red
+#a7d3e3 - blue
+*/
+
+/* ---------------- Fonts ---------------- */
+
+/* latin-ext */
+@font-face {
+  font-family: 'Karla';
+  font-style: light;
+  font-weight: 200;
+  src: url(https://fonts.gstatic.com/s/karla/v21/qkBIXvYC6trAT55ZBi1ueQVIjQTD-JqaHUlKd7c.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Karla';
+  font-style: light;
+  font-weight: 200;
+  src: url(https://fonts.gstatic.com/s/karla/v21/qkBIXvYC6trAT55ZBi1ueQVIjQTD-JqaE0lK.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* ---------------- Global ---------------- */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Karla";
+    margin: 0;
+    background-color: white;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.anchor {
+    display: block;
+    position: relative;
+    top: -10vh;
+    visibility: hidden;
+}
+
+.header {
+    margin: 8vh 0;
+    color: #D9261E;
+    text-align: center;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    text-decoration: underline overline;
+    text-underline-position: under;
+}
+
+.sub-header {
+    margin: 6vh 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.home-subheader {
+    margin: 0;
+    font-size: 2.2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+/* ---------------- PAGES ---------------- */
+
+
+/* ---------------- Category ---------------- */
+
+.category {
+    margin-bottom: 20vh; 
+    text-align: center;
+}
+
+/* ---------------- Four O Four ---------------- */
+
+.four-o-four {
+    margin: 8vh auto 13vh;
+    text-align: center;
+}
+
+.caption {
+    margin-top: 3vh;
+    font-size: 1.3rem;
+}
+
+/* ---------------- Layout ---------------- */
+
+
+/* ---------------- Products ---------------- */
+
+.category-banners {
+    margin: 17vh 0 25vh;
+}
+
+/* ---------------- Supplier ---------------- */
+
+.offered {
+    margin: auto auto 18vh;
+}
+
+/* ---------------- Suppliers ---------------- */
+
+.supplier-banners {
+    margin: 0 0 150px;
+}
+
+.supplier-wallpapers {
+    position: absolute;
+}
+
+.banner-wallpaper {
+    width: 100%;
+    height: 200px;
+    opacity: 0.2;
+    object-fit: cover;
+}
+
+.supplier-banners .banner-title {
+    color: #D9261E;
+}
+
+/* ---------------- COMPONENTS ---------------- */
+
+
+
+/* ---------------- About ---------------- */
+
+.about {
+    margin: 30vh 20% 40vh auto;
+    width: 60%;
+}
+
+.about-image {
+    width: 50%;
+    object-fit: contain;
+}
+
+.about-outer-text {
+    position: absolute;
+    width: 30%;
+    background: #a7d3e3;
+
+    transform: translate(70%, -75%);
+}
+
+.about-outer-text:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+
+.about-text {
+    padding: 7%;
+    position:  absolute;
+    top: 0;
+    color: black;
+}
+
+.about-description {
+    color: black;
+    font-weight: 100;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+/* ---------------- Banner ---------------- */
+
+.banner-container {
+    position: relative;
+    padding: 4%;    
+    width: 92%;
+    height: 142px;
+    overflow: hidden;
+}    
+
+.right-side {
+    text-align: right;
+}
+
+.banner-background {
+    object-fit: cover;
+    opacity: 0.6;
+    position: absolute;
+    left: 0;
+    top: -30vh;
+    width: 100%;
+    height: auto;
+    transition: all 0.4s;
+}
+
+.banner-container:hover .banner-background {
+    transform: scale(1.1);
+}
+
+.banner-title {
+    position: relative;
+    margin: 0%;
+    font-size: 2.5rem;
+    font-weight: 200;
+    text-transform: uppercase;
+    transition: all 0.4s;
+}
+
+.product-banner .banner-title {
+    color: red;
+}
+
+.banner-container:hover .banner-title {
+    transform: translate(5vw, 0);
+}
+
+.banner-container.right-side:hover .banner-title {
+    transform: translate(-5vw, 0);
+}
+
+.half-highlight {
+    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #a7d3e3 50%);
+}
+
+.product-banner .half-highlight {
+    background: linear-gradient(180deg,white 0%, white 50%);
+}
+
+.banner-description {
+    position: relative;
+    width: 60%;
+    overflow: hidden;
+    font-size: 1.2rem;
+    font-weight: 300;
+    transition: all 0.4s;
+}
+
+.banner-container:hover .banner-description {
+    transform: translate(7vw, 0);
+}
+
+.banner-container.right-side:hover .banner-description {
+    transform: translate(-7vw, 0);
+}
+
+.right-side .banner-description {
+    float: right;
+}
+
+/* ---------------- Contact MM ---------------- */
+
+.contact-mm {
+    margin: 14vh auto 20vh;
+}
+
+.contact-message {
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+.contact-mm .contact {
+    margin: 15vh auto 0;
+}
+
+/* ---------------- Contact ---------------- */
+
+.contact {
+    margin: 30vh 0;
+}
+
+.contatar {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
+
+.contact-content {
+    margin: 0 auto;
+    width: 60vw;
+    height: 30vw;
+    display: flex;
+}
+
+.contact-left {
+    padding: 5%;
+    width: 40%;
+    height: 80%;
+    background: #a7d3e3;
+}
+
+.contact-title {
+    margin: 0;
+    font-size: 2.2rem;
+    font-weight: 200;
+}
+
+.contact-firm {
+    margin: 5% 0;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.contact-address {
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.contact-email {
+    margin: 8% 0 0;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.copy {
+    transform: translate(0, 0.2rem);
+    margin: 0 0 0 1.2rem;
+    width: 1.5rem;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    margin-left: 0.3rem;
+    font-weight: bold;
+}
+
+.contact-number {
+    margin:  0.4rem 0;
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.numbers {
+    letter-spacing: 0.1rem;
+}
+
+.whatsapp {
+    margin: 0 0 0 1.2rem;
+}
+
+.whatsapp-icon {
+    width: 1.2rem;
+}
+
+.contact-map {
+    border: 0;
+    width: 50%;
+    height: 100%;
+}
+
+/* ---------------- Footer ---------------- */
+
+footer {
+    padding: 10vh 15%;
+    width: 70%;
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+footer * {
+    width: max-content;
+}
+
+footer a {
+    display: block;
+    position: relative;
+    padding: 0.2em 0;
+    overflow: hidden;
+}
+  
+/* Fade in */
+footer a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.1em;
+    background-color: white;
+    opacity: 0;
+    transition: transform 300ms;
+    transform: translate3d(-100%, 0, 0);
+}
+
+footer a:hover::after,
+footer a:focus::after {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+}
+
+.link-column {
+    float: left;
+    margin: 0 5%;
+    width: 30%;
+}
+
+/* IT'S AN EXCEPTION, OK?! */
+.link-column * {
+    color: white;
+    font-weight: 200;
+}
+
+.footer-number {
+    width: 100%;
+    display: flex;
+}
+
+.footer-number .numbers {
+    margin-right: 1.2rem;
+}
+
+.footer-number .whatsapp-link {
+    float: left;
+    transform: translate(0, -20%);
+}
+
+.second-column, .third-column {
+    font-size: 1.1rem;
+}
+
+.link-group {
+    margin: 0 0 0 1rem;
+}
+
+/* ---------------- Header ---------------- */
+
+header {
+    border-bottom: solid 1px lightgrey;
+    height: 15vh;
+}
+
+.header-logo {
+    object-fit: contain;
+    height: 75%;
+
+    /* center vertically */
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+
+    left: 15%;
+}
+
+/* ---------------- Landing Banner ---------------- */
+
+.landing-banner {
+    height: 85vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.landing-logo {
+    /* center vertically */
+    position: relative;
+    top: 50%;
+    transform: translate(0, -50%);
+
+    left: 7%;
+    width: 40%;
+}
+
+.landing-mm, .landing-vacuo, .landing-slogan {
+    position: relative;
+    top: -25%;
+    left: 50%;
+
+    width: min-content;
+
+    font-size: 6rem;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.landing-vacuo {
+    transform: translate(40%, -70%);
+}
+
+.landing-slogan {
+    width: 25%;
+    font-size: 1.6rem;
+    font-weight: bold;
+
+    transform: translate(20%, -180%);
+}
+
+/* ---------------- Navigation ---------------- */
+
+.navigation {
+    /* center vertically */
+    position: relative;
+    transform: translate(0, -75%);
+    
+    left: 27%;
+    
+    display: inline-block;
+    height: 25%;
+    width: min-content;
+
+    text-transform: uppercase;
+}
+
+.navigation-list {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+}
+
+.navigation-item, .navigation-button {
+    float: left;
+    margin: 0 3.5%;
+    height: 100%;
+    font-size: 1.2rem;
+    font-weight: 200;
+    text-align: center;
+}
+
+.navigation-text, .navigation-button-text {
+    margin: 0;
+    width: max-content;
+    font-weight: 300;
+}
+
+.navigation-text {
+    position: relative;
+    text-decoration: none;
+}
+
+.navigation-text::before {
+    position: absolute;
+    left: -5%;
+    bottom: -0.1rem;
+    z-index: -1;
+    width: 110%;
+    height: 0.2rem;
+    background-color: #a7d3e3;
+    content: '';
+    transition: all 0.3s ease-in-out;
+}
+
+.navigation-text:hover::before {
+    bottom: 0;
+    height: 100%;
+}
+
+.navigation-button {
+    transform: translate(0, -15%);
+    border: solid #D9261E;
+    border-width: 5.5px 12px 2.5px;
+    border-radius: 20px;
+    background-color: #D9261E;
+}
+
+.navigation-button-text a {
+    color: white;
+}
+
+/* ---------------- Product Group ---------------- */
+
+.product-group {
+    margin: 0 auto;
+    width: 66%;
+    text-align: center;
+}
+
+.product-previews {
+    width: 100%;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+/* ---------------- Product Preview ---------------- */
+
+.product-preview {
+    position: relative;
+    float: left;
+    margin: 5vh calc(10% / 6);
+    border: solid 1px lightgrey;
+    border-radius: 2rem;
+    width: calc(30% - 2px);
+    height: 50vh;
+    overflow: hidden;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 25%, rgba(0,0,0,0) 50%);
+}
+
+.product-link {
+    width: 100%;
+    height: 100%;
+}
+
+.product-wallpaper {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    object-fit: cover;
+    transition: all 0.7s;
+}
+
+.product-wallpaper:hover {
+    transform: scale(1.2);
+    opacity: 0.8;
+}
+
+.preview-text {
+    position: relative;
+    top: 65%;
+    margin: 0 10%;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    text-align: left;
+    color: white;
+}
+
+.preview-title {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.preview-supplier {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+/* ---------------- Supplier Information ---------------- */
+
+.supplier-information {
+    margin: 9vh auto;
+    width: 60vw;
+    height: 30vw;
+    display: flex;
+}
+
+.square-image-container, .text-square {
+    padding: 2.5%;
+    width: 45%;
+    height: 90%;
+}
+
+.square-image {
+    padding: 5%;
+    object-fit: contain;
+    width: 90%;
+    height: 90%;
+}
+
+.text-square .header {
+    margin: 5%;
+}
+
+.supplier-description {
+    margin: 10% 0;
+    font-size: 1.2rem;
+}
+
+.read-more {
+    margin: 0 auto;
+    border: solid #D9261E;
+    border-width: 5.5px 12px 2.5px;
+    border-radius: 20px;
+    width: max-content;
+    background-color: #D9261E;
+    text-align: center;
+}
+
+.read-more a {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 100 !important;
+}
+
+/* ---------------- Suppliers Preview ---------------- */
+
+.suppliers-preview {
+    margin: 15vh 0;
+    text-align: center;
+}
+
+.logos {
+    display: inline-block;
+    margin: 6.5vh 15%;
+}
+
+.logo {
+    float: left;
+    width: 8.3%;
+    object-fit: contain;
+    filter: grayscale(1);
+    margin: 0 4.17%;
+    transition: all 0.2s;
+}
+
+.logo:hover {
+    filter: grayscale(0);
+}
+
+/* ---------------- Synergy Roulette ---------------- */
+
+.synergy-roulette {
+    margin: 30vh 20%;
+}
+
+.products .synergy-roulette {
+    margin: 12vh 20% 0;
+}
+
+.roulette-text {
+    padding: 0.75rem 1.25rem;
+    border-radius: 0.5rem;
+    color: black;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 300;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: all 1s;
+}
+
+.roulette-text:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 70%;
+    height: 100%;
+    background-color: #a7d3e3;
+    border-radius: 1rem;
+    z-index: -2;
+}
+
+.roulette-text:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    width: 0%;
+    height: 100%;
+    background-color: #D9261E;
+    border-radius: 1rem;
+    transition: all 0.5s, color 0.2s;
+}
+
+.roulette-box:hover .roulette-text {
+    color: white;
+    transform: translate(20%, 0);
+}
+
+.roulette-box:hover .roulette-text:before {
+    width: 70%;
+}
+
+/* ---------------- Mobile View ---------------- */
+
+@media only screen and (max-width: 600px) {
+
+    /* ---------------- Global ---------------- */
+
+    #root {
+        overflow: hidden;
+    }
+
+    .header {
+        font-size: 1.8rem;
+        line-height: 5rem;
+    }
+
+    /* ---------------- PAGES ---------------- */
+
+
+    /* ---------------- Category ---------------- */
+
+
+    /* ---------------- Four O Four ---------------- */
+
+    .four-o-four {
+        margin: 8vh auto 13vh;
+        text-align: center;
+    }
+
+    .caption {
+        margin-top: 3vh;
+        font-size: 1.3rem;
+    }
+
+    /* ---------------- Layout ---------------- */
+
+
+    /* ---------------- Products ---------------- */
+
+    .category-banners {
+        margin: 17vh 0 25vh;
+    }
+
+    /* ---------------- Supplier ---------------- */
+    
+    .supplier {
+        margin: 15vh auto 20vh;
+    }
+
+    .offered {
+        margin: 20vh auto 0;
+    }
+
+    /* ---------------- Suppliers ---------------- */
+
+    .suppliers {
+        margin: 15vh auto 20vh;
+        width: 90%;
+    }
+
+    /* ---------------- COMPONENTS ---------------- */
+
+
+
+    /* ---------------- About ---------------- */
+
+    .about {
+        margin: 20vh auto 0;
+        width: 90%;
+        height:fit-content
+    }
+
+    .about-image {
+        width: 100%;
+    }
+
+    .about-outer-text {
+        position: relative;
+        width: 100%;
+        height: fit-content;
+        transform: translate(0, -20%);
+    }
+
+    .about-outer-text:before {
+        content: none;
+    }
+
+    .about-text {
+        position:  relative;
+    }
+
+    /* ---------------- Banner ---------------- */
+
+    .banner-background {
+        top: 0;
+    }
+
+    .banner-title {
+        font-size: 2.1rem;
+    }
+
+    /* ---------------- Contact ---------------- */
+
+    .contact {
+        margin: 5vh 0 25vh;
+    }
+
+    .contact-content {
+        margin: 0 auto;
+        width: 90%;
+        height: fit-content;
+        display: block;
+    }
+
+    .contact-left {
+        padding: 5%;
+        width: 90%;
+        height: fit-content;
+    }
+
+    .contact-map {
+        border: 0;
+        width: 100%;
+        height: 50vh;
+    }
+
+    /* ---------------- Footer ---------------- */
+
+    footer {
+        padding: 10vh 5%;
+        width: 90%;
+        height: fit-content;
+        display: block;
+    }
+    
+    .link-column {
+        float: none;
+        margin: 10vh 5%;
+        width: 100%;
+    }
+
+    .footer-number .whatsapp-icon {
+        margin-left: 0;
+    }
+
+    /* ---------------- Header ---------------- */
+
+    header {
+        height: 15vh;
+    }
+
+    .menu-open {
+        height: 100vh;
+    }
+
+    .header-logo {
+        left: 7%;
+        width: auto;
+        height: 60%;
+    }
+
+    #menu-checkbox {
+        visibility: hidden;
+    }
+
+    .menu {
+        position: absolute;
+        top: -1%;
+        left: 77%;
+        font-size: 6rem;
+   }
+
+    /* ---------------- Landing Banner ---------------- */
+
+    .landing-banner {
+        background-image: none !important;
+        background: #a7d3e3;
+    }
+
+    .landing-logo {
+        margin: 10%;
+        top: 0;
+        left: 0;
+        width: 75%;
+        transform: none;
+    }
+
+    .landing-mm, .landing-vacuo, .landing-slogan {
+        top: 0;
+        left: 0;
+
+        width: min-content;
+
+        font-size: 3rem;
+        font-weight: 200;
+    }
+    .landing-mm {
+        top: -8%;
+        left: 32%;
+    }
+
+    .landing-vacuo {
+        top: -13%;
+        left: 42%;
+        transform: none;
+    }
+
+    .landing-slogan {
+        top: -15%;
+        left: 30%;
+        width: 60%;
+        font-size: 1.6rem;
+        font-weight: 500;
+
+        transform: none;
+    }
+
+   /* ---------------- Navigation ---------------- */
+
+   .navigation {
+        position: -webkit-sticky;
+        top: 0;
+        left: 0;
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        background-color: #a7d3e3;
+        text-transform: uppercase;
+        transform: none;   
+    }
+
+    .navigation-container {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .navigation-list {
+        position: relative;
+        top: 35%;
+        margin: auto;
+        width: 80%;
+        display: block;
+    }
+    
+    .navigation-item, .navigation-button {
+        float: none;
+        margin: 15% 0;
+        height: auto;
+    }    
+
+    /* ---------------- Product Group ---------------- */
+
+    .product-group {
+        margin: 10vh auto;
+    }
+
+    /* ---------------- Product Preview ---------------- */
+
+    .product-preview {
+        margin: 2vh auto;
+        width: 100%;
+    }
+
+    /* ---------------- Supplier Information ---------------- */
+
+    .supplier-information {
+        margin: 0 auto;
+        width: 100%;
+        height: fit-content;
+        display: block;
+    }
+
+    .square-image-container, .text-square {
+        margin: 0 auto;
+        padding: 0;
+        width: 80%;
+        height: fit-content;
+    }
+
+    .read-more {
+        margin-top: 8vh;
+    }
+
+    /* ---------------- Suppliers Preview ---------------- */
+
+    .suppliers-preview {
+        top: -20vh;
+        margin: 0;
+    }
+
+    .suppliers-preview .header {
+        margin: 0;
+    }
+    
+    .logo {
+        float: left;
+        margin: 10% 5%;
+        width: 40%;
+    }
+
+    /* ---------------- Synergy Roulette ---------------- */
+
+    .synergy-roulette {
+        margin: 20vh 7%;
+        width: 86%;
+    }
+
+    .products .synergy-roulette {
+        margin: 12vh 7% 0;
+    }
+
+    .roulette-text {
+        font-size: 1.7rem;
+        text-align: center;
+    }
+
+    .roulette-text:after {
+        position: absolute;
+        width: 100%;
+        content: '';
+    }
+
+    .roulette-box:hover .roulette-text {
+        color: black;
+        transform: none;
+    }
+
+    .roulette-box:hover .roulette-text:before {
+        width: 0;
+    }
+
+}
+
