@@ -1,7 +1,11 @@
 export default function About() {
     return (
         <div className="about">
-            <a id="quem-somos" className="anchor" />
+            <a 
+                id="quem-somos" 
+                className="anchor"
+                href={process.env.PUBLIC_URL}
+            >__anchor__</a>
             <h2 className="header">Quem Somos</h2>
             <img 
                 className="about-image"

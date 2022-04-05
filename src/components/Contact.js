@@ -11,7 +11,11 @@ export default function Contact() {
 
   return (
     <div className="contact">
-      <a id="contatar" className="anchor" />
+      <a 
+        id="contatar" 
+        className="anchor"
+        href={process.env.PUBLIC_URL}
+      >__anchor__</a>
       <h2 className="header">Contatar</h2>
       <div className="contact-content">
         <div className="contact-left">
